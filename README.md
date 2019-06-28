@@ -14,3 +14,9 @@ There are different techniques of data binding which use one-way data binding to
 * Class binding is used to set a class property of a view element.
 #### 5. Style Binding: 
 * Style binding is used to set a style of a view element.
+
+## Two-way Data Binding
+* Two-way data binding in Angular will help users to exchange data from the component to view and from view to the component. It will help users to establish communication bi-directionally.
+```
+<input type="text" [(ngModel)]="username" required/>
+```
