@@ -13,6 +13,10 @@ There are different techniques of data binding which use one-way data binding to
 * Property binding is used to set a property of a view element. 
 * The binding sets the property to the value of a template expression.
 
+```
+<img [src]="srcURL" />
+```
+
 #### 3. Attribute Binding: 
 * Attribute binding is used to set a attribute property of a view element.
 #### 4. Class Binding: 
