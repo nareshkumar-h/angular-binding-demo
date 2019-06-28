@@ -6,7 +6,9 @@ There are different techniques of data binding which use one-way data binding to
 
 #### 1. Interpolation Binding: 
 * Interpolation refers to binding expressions into marked up language.
-```<h3>{{title}}</h3>```
+```
+<h3>{{title}}</h3>
+```
 #### 2. Property Binding: 
 * Property binding is used to set a property of a view element. 
 * The binding sets the property to the value of a template expression.
