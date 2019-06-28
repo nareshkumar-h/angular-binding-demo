@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'data-binding-demo';
+  title = 'data-binding-demo1';
+  username:string ;
+
+  myFunction(){
+    alert("Button clicked");
+  }
 }
